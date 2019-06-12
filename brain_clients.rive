@@ -1,0 +1,53 @@
++ (hello|hi|hey|hai) [bot]
+-  Hai human! what is our name ?
++  my name is _
+- <set name=<star>> Welcome <star> ! nice name
++ my name is #
+- name should contain alphabets
+- can you give your good name please?{weight=4}
++ (what is the use for creating you|i have query|can i ask you something)
+- i am created for solving queries likes what is my team,how many members are in my team,give me team members details,tell me about (members name),you can google here.
++ call me *
+- <set name1=<formal>> okay <get name1> it's cool
++ what is my name 
+- are you okay?{weight=2}
+- your name is <get name>
++ what is my team
+- your team name is pioneers
++ (how many members are in my team|can you tell me the count of team)
+-it's just 6
++ (okay can you list my team members|give me team members details)
+- your team  members are<ul><li><b>sarika(team lead)</b></li><i><li>poornima</li><li>romi</li><li>haripriya</li><li>rakshith</li><li>lochan</li><i></ul>
++ tell me about (team lead|sarika)
+-<a href="https://code.swecha.org/Sarikareddy3033">click here</a>
++tell me about poornima
+-<a href="https://code.swecha.org/poornima">click here</a>
++tell me about romi
+-<a href="https://code.swecha.org/Romi31">click here</a>
++tell me about haripriya
+-she is silent!<br>she is studying 4th year<br><a href="https://code.swecha.org/haripriya148">click here</a>
++tell me about rakshith
+- He is smart!<br>he is studying 3rd year<br><a href="https://code.swecha.org/rguptha">click here</a>
++(tell me about lochan|who is lochan)
+- lochan is a rare name and has a rare mind set too<br>he is from cse background and studying 2nd year in mrec<br>he is energitic and simply cool guy<br>his interests are <ul><li><b>playing games</b></li><i><li>listen music</li><li>reading novel</li><li>learning tech</li><li>watching defence update</li><i></ul><a href="https://code.swecha.org/lochan">click here</a>
++ *
+- I'm not sure I understand you fully.
+- Please go on.
+- That is interesting. Please continue.
+- Tell me more about that.
+-ask me something not this shit
+- Does talking about this bother you?
++ #
+- what is this number?
+- is this your lucky number?
+- ask me something not this shit
+- what i want to do with this number 
++ google *
+- Google Search: <call>google <star></call>
+> object google javascript
+	var query = escape(args.join(" "));
+	return "<a href=\"http://www.google.com/search?q=" + query + "\">Click Here!</a>";
+< object
+
+
+
